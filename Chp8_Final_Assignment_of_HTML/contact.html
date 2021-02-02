@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div>
+        <div style="background-color: lightseagreen;">
+
+            <img src="./images/logo.png" alt="Panacloud Logo" width="200" />
+            <span>
+            <center>
+              <a href="./index.html">HOME</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+              <a href="./about.html">ABOUT</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+              <a href="./portfolio.html">PORTFOLIO</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+              <a href="./contact.html">CONTACT</a>
+            </center>
+          </span>
+
+        </div>
+        <form method="POST">
+            <fieldset>
+                <legend>Your Details:</legend>
+                <label for="name">Name:
+            <input type="text" name="name" />
+          </label>
+                <br />
+                <br />
+                <label for="email">Email:
+            <input type="email" name="email" id="email" />
+          </label>
+            </fieldset>
+            <fieldset>
+                <legend>Your Review</legend>
+                <label for="hear">How did you hear about us?
+            <select name="hear" id="hear">
+              <option value="hear1">Google</option>
+              <option value="hear2">Facebook</option>
+              <option value="hear3">Youtube</option>
+              <option value="hear3">Friends</option>
+            </select>
+          </label> Would you visit us again?
+                <br />
+                <br />
+                <input type="radio" name="visit" id="visit1" value="yes" /><label for="visit1">Yes</label
+          >
+          <input type="radio" name="visit" id="visit2" value="no" /><label
+            for="visit2"
+            >No</label
+          >
+          <input type="radio" name="visit" id="visit3" value="maybe" /><label
+            for="visit3"
+            >Maybe</label
+          >
+          <br />
+          <br />
+          <label for="comments">Comments: </label> <br />
+                <textarea name="comments" id="comments" cols="30" rows="5"></textarea>
+                <br />
+                <input type="checkbox" name="signup" id="signup" checked />
+                <label for="signup">Sign me up for email updates</label>
+                <br />
+                <br />
+                <input type="submit" value="Submit review" />
+            </fieldset>
+        </form>
+        <div>
+            <br />
+            <br />
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2966.2164428515043!2d-87.90951008511023!3d41.97416247921459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fb4276a7762f3%3A0x511747070259ad4b!2sO&#39;Hare%20International%20Airport!5e0!3m2!1sen!2sus!4v1612252267397!5m2!1sen!2sus"
+                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <br />
+            <br />
+            <center style="border: 3px; border-style: solid; background-color: lightseagreen; border-color:rgb(54,54,87); border-radius: 4mm">Copyright &#169; 2020. All rights reserved.</center>
+        </div>
+    </div>
+</body>
+
+</html>
